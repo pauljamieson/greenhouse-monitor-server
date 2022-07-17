@@ -21,7 +21,6 @@ app.use("/ws", wsRouter);
 app.use("/api", apiRouter);
 
 app.get("/", (req, res) => {
-  console.log("a");
   res.json(httpResp(1, "/", "get"));
 });
 
